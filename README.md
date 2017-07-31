@@ -9,4 +9,4 @@ The purpose is to understand the HTML5 Canvas,
 This project may seems small and simply.
 However, it including some fascinating techniques object pools, dirty boxing, and multiple canvases, 2D Collision Detection.
 
-[DEMO](SpaceShooter.html)
+[DEMO](https://rawgit.com/QiaoranC/SpaceShooterExercise17.7/blob/master/SpaceShooter.html)
