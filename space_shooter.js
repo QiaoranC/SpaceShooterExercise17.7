@@ -6,6 +6,12 @@ And tutorials http://blog.sklambert.com/html5-canvas-game-2d-collision-detection
 */
 
 var game = new Game();
+var lastFrame = Date.now();
+var thisFrame;
+var elapsed;
+var avgFramerate = 0;
+var frameCount = 0;
+var elapsedCounter = 0;
 
 function init() {
   if (game.init())
@@ -686,6 +692,10 @@ this.spawnWave = function() {
 }
 
 function animate() {
+  thisFrame = Date.now();
+  elapsed = thisFrame - lastFrame;
+  lastFrame = thisFrame;
+  document.getElementById('fps').innerHTML = avgFramerate;
   document.getElementById('score').innerHTML = game.playerScore;
 
   // Insert objects into quadtree
@@ -708,6 +718,14 @@ function animate() {
     game.ship.bulletPool.animate();
     game.enemyPool.animate();
     game.enemyBulletPool.animate();
+
+    frameCount++;
+    elapsedCounter += elapsed;
+    if (elapsedCounter > 1000) {
+      elapsedCounter -= 1000;
+      avgFramerate = frameCount;
+      frameCount = 0;
+    }
   }
 }
 

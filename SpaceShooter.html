@@ -18,6 +18,14 @@
 			#ship {
 				z-index: 0;
 			}
+			.fps {
+				position: absolute;
+				top: 5px;
+				left: 40px;
+				color: #FF7F00;
+				font-family: Helvetica, sans-serif;
+				cursor: default;
+			}
 			.score {
 				position: absolute;
 				top: 5px;
@@ -57,6 +65,7 @@
 
 		<canvas id="ship" width="600" height="360">
 		</canvas>
+		<div class="fps">FPS: <span id="fps"></span></div>
 		<div class="score">SCORE: <span id="score"></span></div>
 		<div class="game-over" id="game-over">Try Again ?<p><span onclick="game.restart()">Restart</span></p></div>
 		<script src="space_shooter.js"></script>
