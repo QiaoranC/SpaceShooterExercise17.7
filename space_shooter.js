@@ -642,9 +642,9 @@ this.spawnWave = function() {
     var enemyWidth = imageRepository.enemy.width;
     var canvasWidth = imageRepository.background.width
     var x = canvasWidth;
-    var y = 280;
+    var y = 300;
     var spacer = -height * 1.5;
-    for (var i = 1; i <= 12; i++) {
+    for (var i = 1; i <= 18; i++) {
       this.enemyPool.get(x,y,-2);
       x += enemyWidth + 25;
       if (i % 2 == 0) {
