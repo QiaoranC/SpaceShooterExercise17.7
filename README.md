@@ -9,7 +9,7 @@ The purpose is to let me understand the HTML5 Canvas,
 This project may seems small and simply.
 However, it including some fascinating techniques object pools, dirty boxing, and multiple canvases, 2D Collision Detection.
 
-Here is the[DEMO](http://htmlpreview.github.io/?https://github.com/QiaoranC/SpaceShooterExercise17.7/blob/master/SpaceShooter.html)
+Here is the[DEMO](http://htmlpreview.github.com/?https://github.com/QiaoranC/SpaceShooterExercise17.7/blob/master/SpaceShooter.html)
 
 ## 横版飞行射击 HTML5 小游戏
 初学者，第一次尝试写H5小游戏，根据[教程](http://blog.sklambert.com/html5-canvas-game-panning-a-background/).
