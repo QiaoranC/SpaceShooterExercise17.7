@@ -26,3 +26,5 @@ Here is the[DEMO](http://htmlpreview.github.com/?https://github.com/QiaoranC/Spa
 
 详情可见[博客](http://blog.csdn.net/qiaoranc/article/details/76539907)
 利用了H5的原生canvas特性。
+
+<img width="300" alt="2017-08-21 20 23 47" src="https://user-images.githubusercontent.com/29221630/29767315-8d13f0c6-8c14-11e7-81cf-475f686805c3.png">
